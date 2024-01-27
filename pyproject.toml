@@ -9,7 +9,8 @@ python = ">=3.10.0,<3.11"
 vocode = "^0.1.111"
 pydub = "^0.25.1"
 replit = "^3.5.0"
-python-telegram-bot = "^20.7"
+python-telegram-bot = "20.3"
+google-cloud-texttospeech = "^2.15.1"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
