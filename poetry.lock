@@ -2333,6 +2333,16 @@ anyio = ">=3.4.0,<5"
 full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart", "pyyaml"]
 
 [[package]]
+name = "telegram"
+version = "0.0.1"
+description = "Telegram APIs"
+optional = false
+python-versions = "*"
+files = [
+    {file = "telegram-0.0.1.tar.gz", hash = "sha256:d405a0af4c868a8dbeae6d03e297e21c7ee6269e11e2ed3810e15544aba02591"},
+]
+
+[[package]]
 name = "tenacity"
 version = "8.2.3"
 description = "Retry code until it succeeds"
@@ -2890,4 +2900,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "b81aa1c5113cf2eabd44c44b2df1676c3a2a910452215a1a0c170a42ad12bd7d"
+content-hash = "f4d8be50b424d7f09c03b6ae91558f6106c88c1f91a1b14a9fcab10f13890195"
