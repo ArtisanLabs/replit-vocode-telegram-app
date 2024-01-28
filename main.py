@@ -138,7 +138,7 @@ class VocodeBotResponder:
     convo_string = self.db[chat_id].current_conversation
     agent = ChatGPTAgent(
         system_prompt=prompt,
-        model_name="gpt-3.5-turbo-1106",
+        model_name="gpt-4",
         max_tokens=512,
         memory=pickle.loads(convo_string) if convo_string else None,
     )
