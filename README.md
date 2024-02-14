@@ -81,6 +81,14 @@ And add the following to your `.config/nixpkgs/config.nix` file:
 }
 ```
 
+```nix:./configuration.nix
+{
+    nixpkgs.config.permittedInsecurePackages = [
+    "openssl-1.1.1u"
+    ];
+}
+```
+
 ## Running the Project
 
 
