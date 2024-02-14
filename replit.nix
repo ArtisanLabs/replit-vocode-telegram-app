@@ -1,5 +1,6 @@
 {pkgs}: {
   deps = [
+    pkgs.libxcrypt
     pkgs.neovim
     pkgs.libxcrypt
     pkgs.ffmpeg_6-full.bin
