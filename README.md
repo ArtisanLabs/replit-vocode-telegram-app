@@ -1,5 +1,7 @@
 [![Run on Repl.it](https://repl.it/badge/github/ArtisanLabs/replit-vocode-telegram-app)](https://repl.it/github/ArtisanLabs/replit-vocode-telegram-app)
 
+[![Telegram](https://img.shields.io/badge/Telegram-CoquiTributeBot-blue?style=flat-square&logo=telegram)](https://t.me/CoquiTributeBot)
+
 
 <p align="center">
   <img src="images/CoquiTributeBot.jpg" width="200" height="200">
