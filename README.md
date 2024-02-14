@@ -23,6 +23,18 @@ Additionally, you will need to obtain the following API keys:
 - [OpenAI API Key](https://platform.openai.com/docs/quickstart?context=python)
 - [Telegram Bot Key](https://core.telegram.org/bots#how-do-i-create-a-bot)
 
+Replit secrets example
+
+```json
+{
+  "AZURE_SPEECH_REGION": "",
+  "DEEPGRAM_API_KEY": "",
+  "TELEGRAM_BOT_KEY": "",
+  "OPENAI_API_KEY": "",
+  "AZURE_SPEECH_KEY": ""
+}
+```
+
 ## Replit/Nix and Microsoft Azure's speech-SDK
 
 The main challenge with this project is that Microsoft Azure's speech-SDK does not support OpenSSL 3.0. To make Azure Speech-SDK work, you must do several things that are not trivial in Replit. 
@@ -61,6 +73,8 @@ And add the following to your `.config/nixpkgs/config.nix` file:
   ];
 }
 ```
+
+
 
 ## Running the Project
 

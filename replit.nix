@@ -2,7 +2,7 @@
   deps = [
     pkgs.neovim
     pkgs.libxcrypt
-    pkgs.ffmpeg-full
+    pkgs.ffmpeg_6-full.bin
     pkgs.libuuid
     pkgs.openssl_1_1
   ];
