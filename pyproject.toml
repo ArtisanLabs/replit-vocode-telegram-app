@@ -6,11 +6,11 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"
-vocode = { git = "https://github.com/ArtisanLabs/vocode-python.git", branch = "486-support-for-pydantic-v2-v1-compatible" }
+vocode = "^0.1.111"
 pydub = "^0.25.1"
 replit = "^3.5.0"
 google-cloud-texttospeech = "^2.15.1"
-pydantic = "^2"
+# pydantic = "^2"
 python-telegram-bot = "20.8"
 black = "^24.2.0"
 ipython = "^8.21.0"
