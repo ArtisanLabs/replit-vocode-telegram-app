@@ -11,13 +11,7 @@ from pydub import AudioSegment
 
 # from replit import db
 from telegram import Update  # upm package(python-telegram-bot)
-from telegram.ext import (
-    ApplicationBuilder,
-    CommandHandler,
-    ContextTypes,
-    MessageHandler,
-    filters,
-)
+from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters # upm package(python-telegram-bot)
 from vocode.turn_based.agent import ChatGPTAgent
 from vocode.turn_based.synthesizer import (
     AzureSynthesizer,
