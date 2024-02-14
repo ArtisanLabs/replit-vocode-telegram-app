@@ -23,7 +23,14 @@ Additionally, you will need to obtain the following API keys:
 - [OpenAI API Key](https://platform.openai.com/docs/quickstart?context=python)
 - [Telegram Bot Key](https://core.telegram.org/bots#how-do-i-create-a-bot)
 
-Replit secrets example
+## ADD scret in replit
+To add secrets to your Replit project, follow these steps:
+1. Open your Replit project.
+2. Navigate to the 'Secrets' tab on the left sidebar, which looks like a lock icon.
+3. In the Replit interface, locate and click the 'Secrets' tab, represented by a lock icon.
+4. Instead of manually entering secrets, click the 'Edit as JSON' button.
+5. In the JSON editor, you can add all your secrets in the following format:
+6. After adding your secrets, click the 'Save' button to store them securely.
 
 ```json
 {
@@ -74,13 +81,20 @@ And add the following to your `.config/nixpkgs/config.nix` file:
 }
 ```
 
-
-
 ## Running the Project
+
 
 The main script for this project is `main.py`. This script uses the Vocode library to create a voice-to-voice chatbot that uses Microsoft Azure's TTS service. 
 
 To run the project, simply execute the `main.py` script.
+
+### pydantic v2 support
+
+In the Replit bash, manually install Vocode from Git:
+
+```bash
+pip install git+https://github.com/ArtisanLabs/vocode-python.git@486-support-for-pydantic-v2-v1-compatible
+```
 
 ## Built With
 
