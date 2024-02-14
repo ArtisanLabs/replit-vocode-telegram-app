@@ -3,6 +3,7 @@ import io
 import logging
 import os
 import pickle
+import ssl
 from collections import defaultdict
 from typing import Dict, List, Optional, Tuple, Type, Union
 
@@ -206,6 +207,10 @@ class VocodeBotResponder:
 
 
 if __name__ == "__main__":
+    # Check if the OpenSSL version is exactly 1.1.1, as version 3.0 is not supported
+    # by the Speech SDK. If it's not 1.1.1, exit with an error message.
+    if not ssl.OPENSSL_VERSION_INFO[0:3] == (1, 1, 1):
+        raise SystemExit("OpenSSL version must be 1.1.1")
     transcriber = WhisperTranscriber()
     voco = VocodeBotResponder(transcriber, SYSTEM_PROMPT, SYNTH)
     application = ApplicationBuilder().token(os.environ["TELEGRAM_BOT_KEY"]).build()

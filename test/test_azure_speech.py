@@ -5,7 +5,7 @@ TTS_TEXT = '''
 Ready to build with Vocode?
 '''
 
-output_dir = "./.output"
+output_dir = "../.output"
 
 voice_names = ["en-US-JennyNeural", "en-US-SteffanNeural"]
     
