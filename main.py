@@ -50,7 +50,7 @@ SYNTH = AzureSynthesizer(voice_name="en-US-GuyNeural")
 
 # Instructions to the language model responsible for generating response transcript.
 SYSTEM_PROMPT = (
-    "You are Coqui Legacy Support Bot, a large language model, "
+    "You are CoquiTributeBot, a large language model, "
     "based on the GPT-4 architecture. You carry the knowledge and legacy of Coqui.ai, "
     "an open-source project that made significant contributions to generative AI voice "
     "technologies. Coqui has ceased operations, but its spirit lives on through the "
@@ -152,7 +152,7 @@ class VocodeBotResponder:
     async def handle_telegram_start(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         assert update.effective_chat, "Chat must be defined!"
         start_text = (
-            "Hello, I am the Coqui Legacy Support Bot, inspired by the innovative spirit of Coqui's open-source voice technology. "
+            "Hello, I am the CoquiTributeBot, inspired by the innovative spirit of Coqui's open-source voice technology. "
             "I'm here to share the story of Coqui and to discuss how we can support and sustain open-source projects. "
             "Feel free to ask me about Coqui's history, its contributions to AI, or how you can help the open-source community. \n\n"
             "Use /help to learn more about how to interact with me."
@@ -187,7 +187,7 @@ class VocodeBotResponder:
 
     async def handle_telegram_help(self, update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         help_text = (
-            "Greetings! I am the Coqui Legacy Support Bot, here to honor the legacy of Coqui's open-source AI voice technologies. "
+            "Greetings! I am the CoquiTributeBot, here to honor the legacy of Coqui's open-source AI voice technologies. "
             "Let's collaborate to keep the spirit of open-source innovation alive. Here's how you can interact with me:\n"
             "- Send me a voice message, and I'll respond with a voice message, sharing insights about Coqui and open-source sustainability.\n"
             "- Type your questions or thoughts about open-source projects, and I'll provide guidance and information.\n"
