@@ -6,7 +6,6 @@ authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"
-vocode = "^0.1.111"
 pydub = "^0.25.1"
 replit = "^3.5.0"
 google-cloud-texttospeech = "^2.15.1"
@@ -14,7 +13,8 @@ google-cloud-texttospeech = "^2.15.1"
 python-telegram-bot = "20.8"
 black = "^24.2.0"
 ipython = "^8.21.0"
-azure-cognitiveservices-speech = "^1.35.0"
+azure-cognitiveservices-speech = "^1.31.0"
+vocode = "^0.1.111"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md

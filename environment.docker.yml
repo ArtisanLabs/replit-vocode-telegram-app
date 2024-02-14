@@ -12,7 +12,7 @@ dependencies:
   - pip:
     # Installing vocode from the git repository
     # Installing vocode from a specific branch of the git repository
-    - git+https://github.com/ArtisanLabs/vocode-python.git@486-support-for-pydantic-v2-v1-compatible#egg=vocode
+    - vocode
     - python-dotenv
     - ipython
     - deepgram-sdk
