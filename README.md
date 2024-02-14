@@ -1,5 +1,10 @@
 [![Run on Repl.it](https://repl.it/badge/github/ArtisanLabs/replit-vocode-telegram-app)](https://repl.it/github/ArtisanLabs/replit-vocode-telegram-app)
 
+
+<p align="center">
+  <img src="images/CoquiTributeBot.jpg" width="200" height="200">
+</p>
+
 ## A Note on Open Source
 
 This project was initially built with the help of [Coqui](https://github.com/coqui-ai), an open-source project that we deeply admire and appreciate. Unfortunately, Coqui has ceased operations, reminding us of the importance of supporting open-source initiatives. 
@@ -117,3 +122,5 @@ pip install git+https://github.com/ArtisanLabs/vocode-python.git@486-support-for
 - This project pays tribute to the exceptional work accomplished by [@_josh_meyer_](https://github.com/JRMeyer) and [@erogol](https://github.com/erogol) at [Coqui](https://github.com/coqui-ai), which has unfortunately ceased operations.
 - Special thanks to [@Kian](https://github.com/Kian1354) for his support and encouragement to publish this demo.
 - Video of the previous demo can be found [here](https://twitter.com/vocodehq/status/1673402815576969217)
+
+![CoquiTributeBot Banner](images/arpagon__Design_a_banner_for_The_CoquiTributeBot_a_frog_in_the__f1d14fa2-911e-4f76-b7df-9e48cf4cce30_resized.png)
