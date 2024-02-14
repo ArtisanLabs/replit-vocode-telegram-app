@@ -12,7 +12,7 @@ voice_names = ["en-US-JennyNeural", "en-US-SteffanNeural"]
 
 def test_azure_speech_synthesis(voice_name="en-US-JennyNeural", text=TTS_TEXT, filename="output.wav"):
     # Get the subscription key and region from the environment
-    speech_config = SpeechConfig(subscription=os.getenv("AZURE_SPEECH_KEY"), region=os.getenv("AZURE_SPEECH_REGION"))
+    speech_config = SpeechConfig(subscription="xxx", region="eastus")
 
     speech_config.speech_synthesis_voice_name = voice_name
 
