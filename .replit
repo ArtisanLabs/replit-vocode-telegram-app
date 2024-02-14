@@ -3,6 +3,9 @@ modules = ["python-3.10:v18-20230807-322e88b"]
 
 hidden = [".pythonlibs"]
 
+[env]
+POETRY_CACHE_DIR = "${HOME}/${REPL_SLUG}/.cache/pypoetry"
+
 [nix]
 channel = "stable-23_05"
 
