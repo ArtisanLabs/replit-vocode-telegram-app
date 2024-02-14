@@ -1,5 +1,13 @@
 [![Run on Repl.it](https://repl.it/badge/github/ArtisanLabs/replit-vocode-telegram-app)](https://repl.it/github/ArtisanLabs/replit-vocode-telegram-app)
 
+## A Note on Open Source
+
+This project was initially built with the help of [Coqui](https://github.com/coqui-ai), an open-source project that we deeply admire and appreciate. Unfortunately, Coqui has ceased operations, reminding us of the importance of supporting open-source initiatives. 
+
+Open-source projects, such as Coqui, provide immense value to the tech community by driving innovation and offering resources that are accessible to everyone. Without our support, we might all end up using Microsoft, like this project! (Just kidding 😅)
+
+So, let's remember to contribute to and support our favorite open-source projects. We can do this by using the SAS services they create, which will help these projects become self-sustaining. They need us as much as we need them. 💚
+
 
 # Vocode Telegram bot + Azure TTS on Replit
 
