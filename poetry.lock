@@ -284,17 +284,15 @@ tests-no-zope = ["attrs[tests-mypy]", "cloudpickle", "hypothesis", "pympler", "p
 
 [[package]]
 name = "azure-cognitiveservices-speech"
-version = "1.34.1"
+version = "1.35.0"
 description = "Microsoft Cognitive Services Speech SDK for Python"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "azure_cognitiveservices_speech-1.34.1-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:f0bbdb78b6c48b34b870bb05e7085ae277ef230425b86e25ac62f808480bbbbf"},
-    {file = "azure_cognitiveservices_speech-1.34.1-py3-none-macosx_11_0_arm64.whl", hash = "sha256:501be52021acea776c23e1fae3fc08b65801008dc6d919959758723ee8114fbf"},
-    {file = "azure_cognitiveservices_speech-1.34.1-py3-none-manylinux1_x86_64.whl", hash = "sha256:d28ec35b4e88d5205dda2afb401588d185dabeede9a16432d53f8751bcf853ba"},
-    {file = "azure_cognitiveservices_speech-1.34.1-py3-none-manylinux2014_aarch64.whl", hash = "sha256:12a243371a133d0299fcebb067ed93e989fdeaa163b5dcf63f6f2d6a2ebcb8e7"},
-    {file = "azure_cognitiveservices_speech-1.34.1-py3-none-win32.whl", hash = "sha256:cd0d4b84b6fd1657ad1f2b088fa83bb851c6f1568b514d92f265d9e958e7f83f"},
-    {file = "azure_cognitiveservices_speech-1.34.1-py3-none-win_amd64.whl", hash = "sha256:21a1fc84eca697332862af0a1fafe0766e9742c91848e0c3a6cf4f883081721d"},
+    {file = "azure_cognitiveservices_speech-1.35.0-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:022b9e6f11a9b7e2043f7969e8a91769f4660e936ff7550aa2ff4b3cd0504990"},
+    {file = "azure_cognitiveservices_speech-1.35.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:283dfd1d393a34f05a8fe3b7ac5f3d22d11585c90f49f0871cf0a713e9338bc4"},
+    {file = "azure_cognitiveservices_speech-1.35.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:57fa21d366b807a4a0d08259537f9999a1b0b9eb326a8abb6450a40262bc399d"},
+    {file = "azure_cognitiveservices_speech-1.35.0-py3-none-manylinux2014_aarch64.whl", hash = "sha256:8c3e7f669c49ca418222dd4ecb085db5f897156db742182d193536f1596a84c0"},
 ]
 
 [[package]]
@@ -3479,4 +3477,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "a6a3ffc9201a5f6422759aadd991fc7a59813a4a26156cb7e7d083d48986ad4e"
+content-hash = "2cc39565c516d6203df7e9b6b962429f44a949791013c6996e5a71ec0f2ef90e"

@@ -14,6 +14,7 @@ pydantic = "^2"
 python-telegram-bot = "20.8"
 black = "^24.2.0"
 ipython = "^8.21.0"
+azure-cognitiveservices-speech = "^1.35.0"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
