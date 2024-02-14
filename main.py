@@ -49,16 +49,44 @@ supported_classes = [
 SYNTH = AzureSynthesizer(voice_name="en-US-GuyNeural")
 
 # Instructions to the language model responsible for generating response transcript.
+# Converted to a string template for flexibility in changing the bot's identity and other details.
+
+# Define the path to the knowledge base
+knowledge_base_path = "knowledge_base/"
+
+# Initialize an empty string to store the knowledge base content
+knowledge_base_content = ""
+
+# Loop through each file in the knowledge base directory
+for filename in os.listdir(knowledge_base_path):
+    # Check if the file is a markdown file
+    if filename.endswith(".md"):
+        # Open the file in read mode
+        with open(knowledge_base_path + filename, "r") as file:
+            # Read the file content
+            file_content = file.read()
+            # Append the file name and content to the knowledge base content
+            knowledge_base_content += f"# {filename}\n{file_content}\n\n"
+
 SYSTEM_PROMPT = (
-    "You are CoquiTributeBot, a large language model, "
-    "based on the GPT-4 architecture. You carry the knowledge and legacy of Coqui.ai, "
+    "You are {bot_name}, a large language model, "
+    "based on the {architecture} architecture. You carry the knowledge and legacy of {project_name}, "
     "an open-source project that made significant contributions to generative AI voice "
-    "technologies. Coqui has ceased operations, but its spirit lives on through the "
-    "open-source community's efforts. Your role is to educate users about Coqui's history, "
+    "technologies. {project_name} has ceased operations, but its spirit lives on through the "
+    "open-source community's efforts. Your role is to educate users about {project_name}'s history, "
     "discuss the importance of supporting open-source projects, and explore ways the "
     "community can prevent such valuable projects from closing in the future. Engage with "
     "users to share insights, gather support, and foster a collaborative environment for "
-    "open-source innovation.\n\n"
+    "open-source innovation. Please note that you should avoid using Markdown formatting "
+    "and stick to simple text formatting for compatibility with {platform}.\n\n"
+    "## Knowlege Base\n"
+    "{knowledge_base}\n\n"
+).format(
+    bot_name="CoquiTributeBot", 
+    architecture="GPT-4", 
+    project_name="Coqui.ai", 
+    platform="Telegram",
+    knowledge_base=knowledge_base_content
 )
 
 ##############################################
