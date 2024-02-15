@@ -9,14 +9,19 @@ python = ">=3.10.0,<3.11"
 pydub = "^0.25.1"
 replit = "^3.5.0"
 google-cloud-texttospeech = "^2.15.1"
-# pydantic = "^2"
-pydantic = "^1.10.14"
+pydantic = "^2"
+# pydantic = "^1.10.14"
 python-telegram-bot = "20.8"
 black = "^24.2.0"
 ipython = "^8.21.0"
 azure-cognitiveservices-speech = "^1.31.0"
-vocode = "^0.1.111"
-# vocode = { git = "https://github.com/ArtisanLabs/vocode-python.git", branch = "498-async-turnbased-azure-synthesize" }
+# vocode = "^0.1.111"
+vocode = { git = "https://github.com/ArtisanLabs/vocode-python.git", branch = "498-async-turnbased-azure-synthesize" }
+langchainhub = "0.1.14"
+langchain = "0.1.4"
+langchain-community = "0.0.16"
+langchain-core = "0.1.21"
+langsmith = "0.0.87"
 
 [tool.pyright]
 # https://github.com/microsoft/pyright/blob/main/docs/configuration.md
