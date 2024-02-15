@@ -7,6 +7,14 @@
   <img src="assets/images/CoquiTributeBot.jpg" width="200" height="200">
 </p>
 
+<p align="center">
+  <video width="320" height="240" controls>
+    <source src="assets/video/compressed_demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+
 ## A Note on Open Source
 
 This project was initially built with the help of [Coqui](https://github.com/coqui-ai), an open-source project that we deeply admire and appreciate. Unfortunately, Coqui has ceased operations, reminding us of the importance of supporting open-source initiatives. 
