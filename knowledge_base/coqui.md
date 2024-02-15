@@ -1,6 +1,7 @@
 link: https://twitter.com/_josh_meyer_/status/1742522906041635166
 
 Coqui is shutting down.
+by Josh Meyer
 
 It's sad news to start the new year, but I want to take a minute to recognize everything we accomplished and thank the great people who made it possible.
 

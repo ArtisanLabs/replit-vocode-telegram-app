@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="images/CoquiTributeBot.jpg" width="200" height="200">
+  <img src="assets/images/CoquiTributeBot.jpg" width="200" height="200">
 </p>
 
 ## A Note on Open Source
@@ -125,4 +125,4 @@ pip install git+https://github.com/ArtisanLabs/vocode-python.git@486-support-for
 - Special thanks to [@Kian](https://github.com/Kian1354) for his support and encouragement to publish this demo.
 - Video of the previous demo can be found [here](https://twitter.com/vocodehq/status/1673402815576969217)
 
-![CoquiTributeBot Banner](images/arpagon__Design_a_banner_for_The_CoquiTributeBot_a_frog_in_the__f1d14fa2-911e-4f76-b7df-9e48cf4cce30_resized.png)
+![CoquiTributeBot Banner](assets/images/arpagon__Design_a_banner_for_The_CoquiTributeBot_a_frog_in_the__f1d14fa2-911e-4f76-b7df-9e48cf4cce30_resized.png)
